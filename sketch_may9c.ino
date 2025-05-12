@@ -16,7 +16,7 @@ void setup() {
   Serial.begin(9600);
   balanca.begin(DT, SCK);
   delay(1000);
-  balanca.set_scale(81588.57f);  // <-- Substitua aqui com o número que você anotou
+  balanca.set_scale(81588.57f);
   balanca.tare();
   Serial.println("⚙️ Sistema pronto. Aguardando boi...");
 }
