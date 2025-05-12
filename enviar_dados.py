@@ -2,7 +2,7 @@ import serial
 import requests
 from datetime import datetime
 
-PORTA_SERIAL = 'COM5'  # Altere se estiver usando outra porta
+PORTA_SERIAL = 'COM5'
 BAUD_RATE = 9600
 
 URL_API_PESAGEM = 'http://localhost:8080/pesagens'
